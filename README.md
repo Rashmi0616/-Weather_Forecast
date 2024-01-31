@@ -4,6 +4,6 @@ Instructions of how to run the project locally-
    (i) index.html
    (ii) styles.css
    (iii) script.js
-   (iv) img2.jpg
+   (iv) img2.png
 3. Copy the path of the index.html file and paste it at any browser and search.
 4. Now, you can use the project.
