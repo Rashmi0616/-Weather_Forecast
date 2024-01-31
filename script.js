@@ -42,6 +42,7 @@ function displayCurrentWeather(data) {
     weatherDetails.classList.add('weather_item');
     weatherDetails.innerHTML = `
         <h3>${data.name}, ${data.sys.country}</h3>
+        <h4> Current Weather</h4>
         <p>Temperature: ${data.main.temp} °${getTemperatureUnit()}</p>
         <p>Min/Max Temperature: ${data.main.temp_min} °${getTemperatureUnit()} / ${data.main.temp_max} °${getTemperatureUnit()}</p>
         <p>Humidity: ${data.main.humidity}%</p>
