@@ -7,7 +7,7 @@ let units = 'metric'; // Default to Celsius
 function getWeather() {
     const cityInput = document.getElementById('cityInput').value;
     if (cityInput.trim() === '') {
-        alert('Please enter a city name.');
+        alert('Please enter a valid city name.');
         return;
     }
 
@@ -78,7 +78,6 @@ function toggleUnits() {
     const unitLabel = document.getElementById('unitLabel');
     units = unitSwitch.checked ? 'imperial' : 'metric';
     unitLabel.textContent = unitSwitch.checked ? 'Fahrenheit' : 'Celsius';
-
     getWeather();
 }
 
